@@ -64,12 +64,12 @@
                     },
                     {
                       "length" : 5,
-                      "style" : "FONT:Inconsolata",
+                      "style" : "SIZE:36",
                       "offset" : 0
                     },
                     {
                       "length" : 5,
-                      "style" : "SIZE:36",
+                      "style" : "FONT:__SF-UI-Display-Medium__",
                       "offset" : 0
                     }
                   ],
@@ -81,8 +81,8 @@
                       "COLOR:rgb(0, 0, 0)",
                       "LETTERSPACING:0",
                       "LINEHEIGHT:1.2",
-                      "FONT:Inconsolata",
-                      "SIZE:36"
+                      "SIZE:36",
+                      "FONT:__SF-UI-Display-Medium__"
                     ]
                   },
                   "text" : "PENTA",
@@ -126,7 +126,7 @@
             "blur" : 12,
             "autoSize" : true,
             "invertEnabled" : 0,
-            "width" : 91,
+            "width" : 110,
             "brightness" : 100
           },
           {
@@ -329,7 +329,7 @@
             "grayscale" : 0,
             "top" : 158,
             "saturate" : 100,
-            "left" : 61,
+            "left" : 49,
             "locked" : false,
             "sepiaEnabled" : 0,
             "blur" : 12,
@@ -346,8 +346,8 @@
             "blendingMode" : "normal",
             "originalFilename" : "",
             "contrast" : 100,
-            "centerAnchorY" : 0.3530734632683658,
-            "height" : 155,
+            "centerAnchorY" : 0.3650674662668666,
+            "height" : 171,
             "borderWidth" : 1,
             "hueRotate" : 0,
             "borderStyle" : "solid",
@@ -373,7 +373,7 @@
             "visible" : true,
             "invertEnabled" : 0,
             "heightFactor" : null,
-            "width" : 223,
+            "width" : 247,
             "borderBottom" : 1,
             "intrinsicHeight" : 129,
             "blurEnabled" : 0,
@@ -407,11 +407,6 @@
                   "inlineStyleRanges" : [
                     {
                       "length" : 10,
-                      "style" : "FONT:Inconsolata",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 10,
                       "style" : "COLOR:rgb(0, 0, 0)",
                       "offset" : 0
                     },
@@ -434,6 +429,11 @@
                       "length" : 10,
                       "style" : "ALIGN:center",
                       "offset" : 0
+                    },
+                    {
+                      "length" : 10,
+                      "style" : "FONT:__SF-UI-Text-Regular__",
+                      "offset" : 0
                     }
                   ],
                   "entityRanges" : [
@@ -441,12 +441,12 @@
                   ],
                   "data" : {
                     "emptyStyle" : [
-                      "FONT:Inconsolata",
                       "COLOR:rgb(0, 0, 0)",
                       "LETTERSPACING:0",
                       "LINEHEIGHT:1.2",
                       "SIZE:20",
-                      "ALIGN:center"
+                      "ALIGN:center",
+                      "FONT:__SF-UI-Text-Regular__"
                     ]
                   },
                   "text" : "Combating ",
@@ -458,11 +458,6 @@
                   "inlineStyleRanges" : [
                     {
                       "length" : 17,
-                      "style" : "FONT:Inconsolata",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 17,
                       "style" : "COLOR:rgb(0, 0, 0)",
                       "offset" : 0
                     },
@@ -485,6 +480,11 @@
                       "length" : 17,
                       "style" : "ALIGN:center",
                       "offset" : 0
+                    },
+                    {
+                      "length" : 17,
+                      "style" : "FONT:__SF-UI-Text-Regular__",
+                      "offset" : 0
                     }
                   ],
                   "entityRanges" : [
@@ -492,12 +492,12 @@
                   ],
                   "data" : {
                     "emptyStyle" : [
-                      "FONT:Inconsolata",
                       "COLOR:rgb(0, 0, 0)",
                       "LETTERSPACING:0",
                       "LINEHEIGHT:1.2",
                       "SIZE:20",
-                      "ALIGN:center"
+                      "ALIGN:center",
+                      "FONT:__SF-UI-Text-Regular__"
                     ]
                   },
                   "text" : "micro aggressions",
@@ -509,11 +509,6 @@
                   "inlineStyleRanges" : [
                     {
                       "length" : 19,
-                      "style" : "FONT:Inconsolata",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 19,
                       "style" : "COLOR:rgb(0, 0, 0)",
                       "offset" : 0
                     },
@@ -536,6 +531,11 @@
                       "length" : 19,
                       "style" : "ALIGN:center",
                       "offset" : 0
+                    },
+                    {
+                      "length" : 19,
+                      "style" : "FONT:__SF-UI-Text-Regular__",
+                      "offset" : 0
                     }
                   ],
                   "entityRanges" : [
@@ -543,12 +543,12 @@
                   ],
                   "data" : {
                     "emptyStyle" : [
-                      "FONT:Inconsolata",
                       "COLOR:rgb(0, 0, 0)",
                       "LETTERSPACING:0",
                       "LINEHEIGHT:1.2",
                       "SIZE:20",
-                      "ALIGN:center"
+                      "ALIGN:center",
+                      "FONT:__SF-UI-Text-Regular__"
                     ]
                   },
                   "text" : "with micro justices",
@@ -592,14 +592,14 @@
             "blur" : 12,
             "autoSize" : true,
             "invertEnabled" : 0,
-            "width" : 191,
+            "width" : 177,
             "brightness" : 100
           }
         ],
         "height" : 667,
         "fillType" : "color",
         "targetName" : "initialPage",
-        "fillColor" : "rgba(252, 82, 23, 1.00)",
+        "fillColor" : "rgba(238, 185, 181, 1.00)",
         "name" : "initialPage"
       },
       {
