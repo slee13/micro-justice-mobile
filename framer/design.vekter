@@ -247,7 +247,7 @@
             "exportOptions" : [
 
             ],
-            "fillColor" : "hsl(0, 0%, 100%)",
+            "fillColor" : "hsl(0, 100%, 90%)",
             "fillEnabled" : true,
             "fillGradient" : {
               "__class" : "LinearGradient",
