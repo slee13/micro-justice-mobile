@@ -30,10 +30,10 @@
 
 	<script src="framer/coffee-script.js"></script>
 	<script src="framer/framer.js?nocache=ed679a89f7693aa6fc00d4bcdd4ad4a4"></script>
-	<script src="framer/framer.generated.js?nocache=a88cbd4dbd8e8abe1a61d8c8122f216c"></script>
+	<script src="framer/framer.generated.js?nocache=0632586ebe945d8543fd3de5dbcbff5c"></script>
 	<script src="framer/framer.modules.js?nocache=9f11c1613b5fe1725aede3d816dac46e"></script>
 	<script src="framer/framer.vekter.js"></script>
-	<script>Framer.Device.hideBezel = false</script><script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 69;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};window.__framerAnimation = function (th,a){if (a.isNoop === true) {return a;};var l = a.layer;if (l == null) { return a; };if (l.__framerAnimationInfo == null) {l.__framerAnimationInfo = {};};l.__framerAnimationInfo[th] = {originalState:a._originalState, destinationProperties: a.properties, destinationOptions: a.options};return a;};(function() {
+	<script>Framer.Device.hideBezel = false</script><script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 0;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};(function() {
   var Firebase, allAnswers, allQuestions, childLayer, currentPage, firebaseRef, flow, i, j, k, len, len1, len2, optionName, page, questionId, ref, ref1, sketch, txt;
 
   sketch = Framer.Importer.load("imported/interactive_mobile_mockup@2x", {
@@ -70,7 +70,7 @@
 
   for (questionId = i = 0, len = allQuestions.length; i < len; questionId = ++i) {
     txt = allQuestions[questionId];
-    currentPage = window.__framerNew("currentPage", "28:15-28:33", "@Layer",questionPage.copy());
+    currentPage = window.__framerNew("currentPage", "28:15-28:33", "?",questionPage.copy());
     page.addPage(currentPage);
     ref = currentPage.children;
     for (j = 0, len1 = ref.length; j < len1; j++) {
@@ -90,6 +90,7 @@
             } catch (error) {
               count = 0;
             }
+            firebaseRef.goOnline;
             firebaseRef.put("/MA/MA" + clickedLayer.questionId + "/" + clickedLayer.name, {
               counter: count + 1,
               questionId: "MA" + clickedLayer.questionId,
@@ -99,20 +100,21 @@
               questionId: "MA" + clickedLayer.questionId,
               optionId: clickedLayer.name
             });
-            return window.__framerAnimation("#17b84681d",clickedLayer.animate({
+            firebaseRef.goOffline;
+            return clickedLayer.animate({
               y: clickedLayer.y - 10,
               options: {
                 time: 0.22,
                 curve: Spring
               }
-            }));
+            });
           });
         }
       }
     }
   }
 
-  flow = window.__framerNew("flow", "59:7-59:23", "#10da40dba",new FlowComponent);
+  flow = window.__framerNew("flow", "60:7-60:23", "#fafde8e4",new FlowComponent);
 
   flow.showNext(initialPage);
 

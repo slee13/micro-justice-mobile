@@ -42,7 +42,7 @@ for txt, questionId in allQuestions
 						
 					catch
 						count = 0
-					firebaseRef.database().goOnline();	
+					firebaseRef.goOnline;	
 					firebaseRef.put("/MA/MA"+ clickedLayer.questionId + "/" + clickedLayer.name, 
 						{counter:count+1,
 						questionId: "MA" + clickedLayer.questionId,
@@ -50,7 +50,7 @@ for txt, questionId in allQuestions
 						
 					#add each individual poll to make adding a token to main data visualization easier
 					firebaseRef.post("/answers",{questionId: "MA" + clickedLayer.questionId, optionId: clickedLayer.name})
-					firebaseRef.database().goOffline();
+					firebaseRef.goOffline;
 					clickedLayer.animate
 # 						scale: 1.42
 						y: clickedLayer.y-10
